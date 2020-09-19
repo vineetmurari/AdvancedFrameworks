@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.automate.withme</groupId>
+  <artifactId>AdvancedFrameworks</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>AdvancedFrameworks</name>
+  
+  
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>5.5.0</version>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>5.5.0</version>
+    <scope>test</scope>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit-dep</artifactId>
+    <version>4.10</version>
+    <scope>test</scope>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java --><dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.14.0</version>
+</dependency>
+
+<dependency>
+   <groupId>tech.grasshopper</groupId>
+   <artifactId>extentreports-cucumber5-adapter</artifactId>
+   <version>2.0.0</version>
+   <scope>test</scope>
+        <exclusions>
+            <exclusion>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-java</artifactId>
+            </exclusion>
+            <exclusion>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-core</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+    
+    
+ <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.12</version>
+</dependency>
+
+<dependency>
+  <groupId>org.apache.poi</groupId>
+  <artifactId>poi-ooxml</artifactId>
+  <version>3.15</version>
+</dependency>
+
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4.7</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/javax.activation/activation -->
+<!-- https://mvnrepository.com/artifact/javax.activation/activation -->
+<dependency>
+    <groupId>javax.activation</groupId>
+    <artifactId>activation</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+
+</dependencies>
+  
+  
+  
+</project>
