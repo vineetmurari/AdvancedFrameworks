@@ -1,6 +1,5 @@
 package com.automate.withme.runners;
 
-import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
 import io.cucumber.junit.Cucumber;
